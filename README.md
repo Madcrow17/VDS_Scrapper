@@ -30,6 +30,11 @@ pip install -r requirements.txt
 
 python3 main.py
 
+## Для запуска на ежедневной/еженедельной основе например через crontab -e:
+
+0 3 * * * /usr/bin/python3 /путькскраперу/VDS_Scraper/main.py
+
+
 
 ## Формат выходных данных
 
